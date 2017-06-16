@@ -1,0 +1,233 @@
+.TextIntroducion, body .Wraper .Content1 .ImMilan .TextRightFib p, body .Wraper .Content2 .TextIntroducion p, body .Wraper .Content2 .FeaturedProjects p, body .Wraper .Content2 .commercialProjects p, body .Wraper .Content2 .conceptProjects p, body .Wraper .Content2 .giftCharity p, body .Wraper .Content2 .firstProjects p, body .Wraper footer .footerGodina p {
+  font-size: 15px;
+  color: gray; }
+
+.fibonacciSmall, body .Wraper .Content2 .FeaturedProjects .fibonacciDivs .fibonacciSmall, body .Wraper .Content2 .commercialProjects .fibonacciDivs .fibonacciSmall, body .Wraper .Content2 .conceptProjects .fibonacciDivs .fibonacciSmall, body .Wraper .Content2 .giftCharity .fibonacciDivs .fibonacciSmall, body .Wraper .Content2 .firstProjects .fibonacciDivs .fibonacciSmall {
+  display: inline-block;
+  width: 180px;
+  height: 220px;
+  padding: 10px;
+  background-color: lightgray; }
+
+.fibonacciDivs, body .Wraper .Content2 .FeaturedProjects .fibonacciDivs, body .Wraper .Content2 .commercialProjects .fibonacciDivs, body .Wraper .Content2 .conceptProjects .fibonacciDivs, body .Wraper .Content2 .giftCharity .fibonacciDivs, body .Wraper .Content2 .firstProjects .fibonacciDivs {
+  padding-right: 40px;
+  display: inline-block; }
+
+body {
+  background-color: #FFD3B0; }
+  body .Wraper {
+    background-color: white;
+    width: 55%;
+    position: absolute;
+    left: 20%;
+    top: 100px; }
+    body .Wraper header {
+      border-bottom: 2px solid lightgray; }
+      body .Wraper header .logo {
+        display: inline-block;
+        margin: 10px auto;
+        list-style: none; }
+        body .Wraper header .logo .left-side {
+          float: left;
+          border-right: 1px solid lightgray;
+          padding-right: 20px; }
+          body .Wraper header .logo .left-side a {
+            text-decoration: none;
+            color: black;
+            font-size: 25px; }
+      body .Wraper header .HireMe {
+        display: inline-block;
+        margin: 10px auto;
+        list-style: none;
+        position: absolute;
+        left: 75%; }
+        body .Wraper header .HireMe .right-side {
+          float: right;
+          padding-right: 20px; }
+          body .Wraper header .HireMe .right-side .Projects {
+            text-decoration: none;
+            color: black;
+            font-size: 15px;
+            display: inline-block;
+            padding-top: 5px; }
+          body .Wraper header .HireMe .right-side .HireMeA {
+            text-decoration: none;
+            display: inline-block;
+            color: black;
+            font-size: 15px;
+            font-weight: bold;
+            padding-left: 13px;
+            padding-right: 13px;
+            padding-top: 3px;
+            padding-bottom: 3px;
+            border: 2px solid black; }
+    body .Wraper .Content1 .ImMilan .Fibonacci {
+      display: inline-block;
+      width: 49%;
+      height: 500px; }
+      body .Wraper .Content1 .ImMilan .Fibonacci img {
+        width: 100%;
+        height: 100%; }
+    body .Wraper .Content1 .ImMilan .TextRightFib {
+      float: right;
+      width: 42%;
+      text-align: left; }
+      body .Wraper .Content1 .ImMilan .TextRightFib p a {
+        color: gray;
+        border-bottom: 1px solid gray;
+        padding-bottom: 3px;
+        text-decoration: none; }
+    body .Wraper .Content2 {
+      background-color: #ECF2F2; }
+      body .Wraper .Content2 .line {
+        margin-left: -50px;
+        width: 100px;
+        height: 2px;
+        background: black; }
+      body .Wraper .Content2 .ProjectH3 {
+        width: 100%; }
+        body .Wraper .Content2 .ProjectH3 h3 {
+          border-bottom: 1px solid black;
+          display: inline-block;
+          margin-left: 85%;
+          margin-top: 100px;
+          padding-left: 30px;
+          padding-bottom: 10px; }
+      body .Wraper .Content2 .FeaturedProjects {
+        display: block;
+        padding-left: 100px;
+        padding-bottom: 50px; }
+        body .Wraper .Content2 .FeaturedProjects p {
+          display: block;
+          padding-left: 20px;
+          padding-bottom: 20px; }
+        body .Wraper .Content2 .FeaturedProjects .fibonacciDivs {
+          padding-bottom: 20px; }
+          body .Wraper .Content2 .FeaturedProjects .fibonacciDivs .fibonacciSmall img {
+            width: 100%;
+            height: 100%; }
+      body .Wraper .Content2 .commercialProjects {
+        display: block;
+        padding-left: 100px;
+        padding-top: 40px;
+        padding-bottom: 50px; }
+        body .Wraper .Content2 .commercialProjects p {
+          display: block;
+          padding-left: 20px;
+          padding-bottom: 20px; }
+        body .Wraper .Content2 .commercialProjects .fibonacciDivs {
+          padding-bottom: 20px; }
+          body .Wraper .Content2 .commercialProjects .fibonacciDivs .fibonacciSmall img {
+            width: 100%;
+            height: 100%; }
+      body .Wraper .Content2 .conceptProjects {
+        display: block;
+        padding-left: 100px;
+        padding-top: 40px;
+        padding-bottom: 50px; }
+        body .Wraper .Content2 .conceptProjects p {
+          display: block;
+          padding-left: 20px;
+          padding-bottom: 20px; }
+        body .Wraper .Content2 .conceptProjects .fibonacciDivs {
+          padding-bottom: 20px; }
+          body .Wraper .Content2 .conceptProjects .fibonacciDivs .fibonacciSmall img {
+            width: 100%;
+            height: 100%; }
+      body .Wraper .Content2 .giftCharity {
+        display: block;
+        padding-left: 100px;
+        padding-top: 40px;
+        padding-bottom: 50px; }
+        body .Wraper .Content2 .giftCharity p {
+          display: block;
+          padding-left: 20px;
+          padding-bottom: 20px; }
+        body .Wraper .Content2 .giftCharity .fibonacciDivs {
+          padding-bottom: 20px; }
+          body .Wraper .Content2 .giftCharity .fibonacciDivs .fibonacciSmall img {
+            width: 100%;
+            height: 100%; }
+      body .Wraper .Content2 .firstProjects {
+        display: block;
+        padding-left: 100px;
+        padding-top: 40px;
+        padding-bottom: 50px; }
+        body .Wraper .Content2 .firstProjects p {
+          display: block;
+          padding-left: 20px;
+          padding-bottom: 20px; }
+        body .Wraper .Content2 .firstProjects .fibonacciDivs {
+          padding-bottom: 20px; }
+          body .Wraper .Content2 .firstProjects .fibonacciDivs .fibonacciSmall img {
+            width: 100%;
+            height: 100%; }
+      body .Wraper .Content2 .papirusFooter {
+        height: 500px;
+        background-image: url("Images/books.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center; }
+        body .Wraper .Content2 .papirusFooter .naslovFooter {
+          margin: 0; }
+          body .Wraper .Content2 .papirusFooter .naslovFooter h3 {
+            display: inline-block;
+            margin-left: 35%;
+            margin-top: 150px;
+            color: white; }
+        body .Wraper .Content2 .papirusFooter .rightContent {
+          float: left;
+          width: 40%;
+          padding-left: 100px;
+          padding-top: 80px;
+          color: white; }
+          body .Wraper .Content2 .papirusFooter .rightContent .lineWhite {
+            margin-left: -50px;
+            width: 100px;
+            height: 2px;
+            background: white; }
+          body .Wraper .Content2 .papirusFooter .rightContent p {
+            text-align: left; }
+            body .Wraper .Content2 .papirusFooter .rightContent p a {
+              border-bottom: 1px solid white;
+              padding: 5px;
+              text-decoration: none;
+              color: white;
+              font-weight: bold; }
+        body .Wraper .Content2 .papirusFooter .leftContent {
+          float: right;
+          display: inline-block;
+          width: 39%;
+          padding-right: 100px;
+          padding-top: 80px;
+          color: white; }
+          body .Wraper .Content2 .papirusFooter .leftContent .lineWhite {
+            margin-left: 350px;
+            width: 100px;
+            height: 2px;
+            background: white; }
+          body .Wraper .Content2 .papirusFooter .leftContent h3 {
+            text-align: right; }
+          body .Wraper .Content2 .papirusFooter .leftContent p {
+            text-align: right; }
+            body .Wraper .Content2 .papirusFooter .leftContent p a {
+              border-bottom: 1px solid white;
+              padding: 5px;
+              text-decoration: none;
+              color: white;
+              font-weight: bold; }
+    body .Wraper footer .footerGodina {
+      float: left;
+      width: 49%; }
+      body .Wraper footer .footerGodina p {
+        margin-left: 50%; }
+    body .Wraper footer .footerList {
+      float: right;
+      width: 40%; }
+      body .Wraper footer .footerList .listF {
+        list-style: none; }
+        body .Wraper footer .footerList .listF li {
+          display: inline-block;
+          padding-right: 20px; }
+
+/*# sourceMappingURL=Style.css.map */

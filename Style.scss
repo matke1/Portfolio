@@ -1,0 +1,461 @@
+$font-sizePrimary: 15px;
+$font-colorPrimary: gray;
+$font-colorSecundary: black;
+$content2color: #ECF2F2;
+$fibosmallcolor: lightgray;
+
+
+.TextIntroducion {
+  font-size: $font-sizePrimary;
+  color: $font-colorPrimary;  }
+
+
+.fibonacciSmall{
+  display: inline-block;
+  width:180px;
+  height:220px;
+  padding:10px;
+  background-color: $fibosmallcolor;}
+
+
+.fibonacciDivs {
+  padding-right:40px;
+  display: inline-block;}
+  //padding-bottom:50px;}
+
+
+
+body {
+  background-color: #FFD3B0;
+
+  .Wraper {
+    background-color: white;
+    width: 55%;
+    position: absolute;
+    left: 20%;
+    top: 100px;
+
+    header {
+      border-bottom: 2px solid lightgray;
+
+      .logo {
+        display: inline-block;
+        margin: 10px auto;
+        list-style: none;
+
+        .left-side {
+          float: left;
+          border-right: 1px solid lightgray;
+          padding-right: 20px;
+
+          a {
+            text-decoration: none;
+            color: black;
+            font-size: 25px;
+          }
+
+        }
+
+      }
+
+      .HireMe {
+        display: inline-block;
+        margin: 10px auto;
+        list-style: none;
+        position: absolute;
+        left: 75%;
+
+        .right-side {
+          float: right;
+          padding-right: 20px;
+
+          .Projects {
+            text-decoration: none;
+            color: black;
+            font-size: $font-sizePrimary;
+            display: inline-block;
+            padding-top: 5px;
+          }
+          .HireMeA {
+            text-decoration: none;
+            display: inline-block;
+            color: black;
+            font-size: $font-sizePrimary;
+            font-weight: bold;
+            padding-left: 13px;
+            padding-right: 13px;
+            padding-top: 3px;
+            padding-bottom: 3px;
+            border: 2px solid black;
+          }
+
+        }
+
+      }
+
+    }
+
+
+
+
+    ////////////////// Slika i text pored ////////////////////////////
+    .Content1 {
+
+      .ImMilan {
+
+        .Fibonacci {
+          display: inline-block;
+          width: 49%;
+          height: 500px;
+
+          img {
+            width: 100%;
+            height: 100%;
+          }
+
+        }
+        .TextRightFib {
+          float: right;
+          width: 42%;
+          text-align: left;
+
+          p {
+            @extend .TextIntroducion;
+
+            a {
+              color: $font-colorPrimary;
+              border-bottom: 1px solid $font-colorPrimary;
+              padding-bottom: 3px;
+              text-decoration: none;
+            }
+          }
+        }
+
+      }
+    }
+
+
+    ////////////////// Ostatak stranice ////////////////////////////
+
+
+    .Content2 {
+
+      background-color: $content2color;
+      //  height: 1000px;
+
+
+
+
+      //////// LINIJA CRNA MALA ///////////
+
+      .line {
+        margin-left: -50px;
+        width: 100px;
+        height: 2px;
+        background: $font-colorSecundary;
+      }
+
+      .ProjectH3 {
+        //  padding-left:50px;
+        // margin-right:40px;
+        //  margin-top:40px;
+        width: 100%;
+
+        h3 {
+          border-bottom: 1px solid black;
+          display: inline-block;
+          margin-left: 85%;
+          margin-top: 100px;
+          padding-left: 30px;
+          padding-bottom: 10px;
+        }
+      }
+
+      .TextIntroducion p{
+        @extend .TextIntroducion;
+
+      }
+
+
+
+      //////// Featured projects ///////////
+
+      .FeaturedProjects {
+
+        display: block;
+        padding-left: 100px;
+        padding-bottom: 50px;
+
+        p {
+          @extend .TextIntroducion;
+          display: block;
+          padding-left: 20px;
+          padding-bottom: 20px;
+        }
+
+        .fibonacciDivs {
+          @extend .fibonacciDivs;
+          padding-bottom: 20px;
+
+          .fibonacciSmall {
+            @extend .fibonacciSmall;
+
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+
+        }
+      }
+
+
+      //////// Commercial projects ///////////
+
+
+      .commercialProjects {
+
+        display: block;
+        padding-left: 100px;
+        padding-top: 40px;
+        padding-bottom: 50px;
+
+
+        p {
+          @extend .TextIntroducion;
+          display: block;
+          padding-left: 20px;
+          padding-bottom: 20px;
+        }
+
+        .fibonacciDivs {
+          @extend .fibonacciDivs;
+          padding-bottom: 20px;
+
+          .fibonacciSmall {
+            @extend .fibonacciSmall;
+
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+
+        }
+      }
+
+
+
+      //////////// Concept projects ///////////////////
+
+      .conceptProjects{
+
+        display: block;
+        padding-left: 100px;
+        padding-top: 40px;
+        padding-bottom: 50px;
+
+
+        p{
+          @extend .TextIntroducion;
+          display: block;
+          padding-left: 20px;
+          padding-bottom: 20px;
+        }
+
+        .fibonacciDivs {
+          @extend .fibonacciDivs;
+          padding-bottom: 20px;
+
+          .fibonacciSmall {
+            @extend .fibonacciSmall;
+
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+
+        }
+      }
+
+      //////////// gift/charity projects ///////////////////
+
+      .giftCharity{
+
+        display: block;
+        padding-left: 100px;
+        padding-top: 40px;
+        padding-bottom: 50px;
+
+
+        p{
+          @extend .TextIntroducion;
+          display: block;
+          padding-left: 20px;
+          padding-bottom: 20px;
+        }
+
+        .fibonacciDivs {
+          @extend .fibonacciDivs;
+          padding-bottom: 20px;
+
+          .fibonacciSmall {
+            @extend .fibonacciSmall;
+
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+
+        }
+      }
+
+
+      //////////// first projects #throwback ///////////////////
+
+      .firstProjects{
+
+        display: block;
+        padding-left: 100px;
+        padding-top: 40px;
+        padding-bottom: 50px;
+
+
+        p{
+          @extend .TextIntroducion;
+          display: block;
+          padding-left: 20px;
+          padding-bottom: 20px;
+        }
+
+        .fibonacciDivs {
+          @extend .fibonacciDivs;
+          padding-bottom: 20px;
+
+          .fibonacciSmall {
+            @extend .fibonacciSmall;
+
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+
+        }
+      }
+
+
+
+
+      ////////////// PAPIRUS POZADINA I FOOTER/////////////////
+
+      .papirusFooter {
+        height:500px;
+        background-image: url("Images/books.jpg");
+        background-size:     cover;
+        background-repeat:   no-repeat;
+        background-position: center center;
+
+        .naslovFooter{
+          margin:0;
+
+          h3{
+            display: inline-block;
+            margin-left: 35%;
+            margin-top:150px;
+            color: white;
+          }
+        }
+
+        .rightContent{
+
+          float: left;
+          width:40%;
+          padding-left:100px;
+          padding-top: 80px;
+          color: white;
+          .lineWhite {
+            margin-left: -50px;
+            width: 100px;
+            height: 2px;
+            background: white;
+          }
+
+          p{
+            text-align: left;
+            a{
+              border-bottom:1px solid white;
+              padding:5px;
+              text-decoration: none;
+              color: white;
+              font-weight:bold;
+            }
+
+          }
+        }
+
+        .leftContent{
+          float: right;
+          display: inline-block;
+          width:39%;
+          padding-right:100px;
+          padding-top: 80px;
+          color: white;
+
+          .lineWhite {
+            margin-left: 350px;
+            width: 100px;
+            height: 2px;
+            background: white;
+          }
+
+          h3{
+            text-align: right;
+          }
+
+          p{
+            text-align: right;
+            a{
+              border-bottom:1px solid white;
+              padding:5px;
+              text-decoration: none;
+              color: white;
+              font-weight:bold;
+            }
+          }
+
+
+        }
+
+      }
+
+    }
+
+    footer{
+
+      .footerGodina{
+        float: left;
+        width:49%;
+        p{
+          @extend .TextIntroducion;
+          margin-left:50%;
+        }
+      }
+      .footerList{
+        float: right;
+        width:40%;
+
+        .listF{
+          list-style: none;
+          li{
+            display: inline-block;
+            padding-right:20px;
+          }
+        }
+      }
+
+    }
+  }
+}
