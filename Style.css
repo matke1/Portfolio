@@ -1,4 +1,4 @@
-.TextIntroducion, body .Wraper .Content1 .ImMilan .TextRightFib p, body .Wraper .Content2 .TextIntroducion p, body .Wraper .Content2 .FeaturedProjects p, body .Wraper .Content2 .commercialProjects p, body .Wraper .Content2 .conceptProjects p, body .Wraper .Content2 .giftCharity p, body .Wraper .Content2 .firstProjects p, body .Wraper footer .footerGodina p {
+.TextIntroducion, body .Wraper .Content1 .ImMilan .TextRightFib .textIntroducionWr p, body .Wraper .Content2 .TextIntroducion p, body .Wraper .Content2 .FeaturedProjects p, body .Wraper .Content2 .commercialProjects p, body .Wraper .Content2 .conceptProjects p, body .Wraper .Content2 .giftCharity p, body .Wraper .Content2 .firstProjects p, body .Wraper footer .footerGodina p {
   font-size: 15px;
   color: gray; }
 
@@ -13,43 +13,50 @@
   padding-right: 40px;
   display: inline-block; }
 
+.Proba {
+  background-color: #FFD3B0;
+  width: 100%; }
+
 body {
   background-color: #FFD3B0; }
   body .Wraper {
     background-color: white;
-    width: 55%;
-    position: absolute;
-    left: 20%;
-    top: 100px; }
+    width: 1000px;
+    position: relative;
+    left: 0;
+    top: 100px;
+    margin: 0 auto; }
     body .Wraper header {
       border-bottom: 2px solid lightgray; }
       body .Wraper header .logo {
         display: inline-block;
-        margin: 10px auto;
-        list-style: none; }
+        position: relative;
+        padding: 5px;
+        margin: 0 auto; }
         body .Wraper header .logo .left-side {
           float: left;
           border-right: 1px solid lightgray;
-          padding-right: 20px; }
+          padding-right: 20px;
+          padding-left: 20px; }
           body .Wraper header .logo .left-side a {
             text-decoration: none;
             color: black;
             font-size: 25px; }
       body .Wraper header .HireMe {
         display: inline-block;
-        margin: 10px auto;
         list-style: none;
-        position: absolute;
-        left: 75%; }
+        position: relative;
+        left: 60%;
+        margin: 0 auto; }
         body .Wraper header .HireMe .right-side {
-          float: right;
-          padding-right: 20px; }
+          float: right; }
           body .Wraper header .HireMe .right-side .Projects {
             text-decoration: none;
             color: black;
             font-size: 15px;
             display: inline-block;
-            padding-top: 5px; }
+            padding-top: 5px;
+            padding-right: 10px; }
           body .Wraper header .HireMe .right-side .HireMeA {
             text-decoration: none;
             display: inline-block;
@@ -61,22 +68,36 @@ body {
             padding-top: 3px;
             padding-bottom: 3px;
             border: 2px solid black; }
-    body .Wraper .Content1 .ImMilan .Fibonacci {
-      display: inline-block;
-      width: 49%;
+    body .Wraper .Content1 .ImMilan {
+      width: 100%;
       height: 500px; }
-      body .Wraper .Content1 .ImMilan .Fibonacci img {
-        width: 100%;
+      body .Wraper .Content1 .ImMilan .Fibonacci {
+        display: inline-block;
+        width: 49%;
         height: 100%; }
-    body .Wraper .Content1 .ImMilan .TextRightFib {
-      float: right;
-      width: 42%;
-      text-align: left; }
-      body .Wraper .Content1 .ImMilan .TextRightFib p a {
-        color: gray;
-        border-bottom: 1px solid gray;
-        padding-bottom: 3px;
-        text-decoration: none; }
+        body .Wraper .Content1 .ImMilan .Fibonacci img {
+          width: 100%;
+          height: 100%; }
+      body .Wraper .Content1 .ImMilan .TextRightFib {
+        float: right;
+        width: 50%;
+        height: auto;
+        text-align: left;
+        padding-top: 20px; }
+        body .Wraper .Content1 .ImMilan .TextRightFib .textIntroducionWr {
+          width: 90%;
+          height: auto;
+          text-align: left;
+          margin: 0 auto;
+          position: relative;
+          left: 5%; }
+          body .Wraper .Content1 .ImMilan .TextRightFib .textIntroducionWr h2 {
+            padding-right: 100px; }
+          body .Wraper .Content1 .ImMilan .TextRightFib .textIntroducionWr p a {
+            color: gray;
+            border-bottom: 1px solid gray;
+            padding-bottom: 3px;
+            text-decoration: none; }
     body .Wraper .Content2 {
       background-color: #ECF2F2; }
       body .Wraper .Content2 .line {
@@ -175,42 +196,46 @@ body {
             margin-left: 35%;
             margin-top: 150px;
             color: white; }
-        body .Wraper .Content2 .papirusFooter .rightContent {
+        body .Wraper .Content2 .papirusFooter .leftContent {
           float: left;
-          width: 40%;
+          width: 30%;
           padding-left: 100px;
           padding-top: 80px;
-          color: white; }
-          body .Wraper .Content2 .papirusFooter .rightContent .lineWhite {
-            margin-left: -50px;
+          color: white;
+          margin: 0 auto; }
+          body .Wraper .Content2 .papirusFooter .leftContent .lineWhite {
+            position: relative;
+            left: -50px;
             width: 100px;
             height: 2px;
             background: white; }
-          body .Wraper .Content2 .papirusFooter .rightContent p {
+          body .Wraper .Content2 .papirusFooter .leftContent p {
             text-align: left; }
-            body .Wraper .Content2 .papirusFooter .rightContent p a {
+            body .Wraper .Content2 .papirusFooter .leftContent p a {
               border-bottom: 1px solid white;
               padding: 5px;
               text-decoration: none;
               color: white;
               font-weight: bold; }
-        body .Wraper .Content2 .papirusFooter .leftContent {
+        body .Wraper .Content2 .papirusFooter .rightContent {
           float: right;
           display: inline-block;
-          width: 39%;
+          width: 30%;
           padding-right: 100px;
           padding-top: 80px;
-          color: white; }
-          body .Wraper .Content2 .papirusFooter .leftContent .lineWhite {
-            margin-left: 350px;
+          color: white;
+          margin: 0 auto; }
+          body .Wraper .Content2 .papirusFooter .rightContent .lineWhite {
+            position: relative;
+            left: 250px;
             width: 100px;
             height: 2px;
             background: white; }
-          body .Wraper .Content2 .papirusFooter .leftContent h3 {
+          body .Wraper .Content2 .papirusFooter .rightContent h3 {
             text-align: right; }
-          body .Wraper .Content2 .papirusFooter .leftContent p {
+          body .Wraper .Content2 .papirusFooter .rightContent p {
             text-align: right; }
-            body .Wraper .Content2 .papirusFooter .leftContent p a {
+            body .Wraper .Content2 .papirusFooter .rightContent p a {
               border-bottom: 1px solid white;
               padding: 5px;
               text-decoration: none;
@@ -220,10 +245,15 @@ body {
       float: left;
       width: 49%; }
       body .Wraper footer .footerGodina p {
-        margin-left: 50%; }
+        position: relative;
+        left: 50%;
+        top: 15px;
+        display: inline-block;
+        margin: 0 auto; }
     body .Wraper footer .footerList {
       float: right;
-      width: 40%; }
+      width: 40%;
+      margin: 0 auto; }
       body .Wraper footer .footerList .listF {
         list-style: none; }
         body .Wraper footer .footerList .listF li {
