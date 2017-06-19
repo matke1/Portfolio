@@ -5,7 +5,7 @@ $content2color: #ECF2F2;
 $fibosmallcolor: lightgray;
 
 
-.TextIntroducion {
+.textIntroducion {
   font-size: $font-sizePrimary;
   color: $font-colorPrimary;  }
 
@@ -31,7 +31,7 @@ $fibosmallcolor: lightgray;
 body {
   background-color: #FFD3B0;
 
-  .Wraper {
+  .Wrapper {
     background-color: white;
     width: 1000px;
     position: relative;
@@ -64,7 +64,7 @@ body {
 
       }
 
-      .HireMe {
+      .hireMe {
         display: inline-block;
         list-style: none;
         position: relative;
@@ -75,7 +75,7 @@ body {
           float: right;
           //padding-right: 20px;
 
-          .Projects {
+          .projects {
             text-decoration: none;
             color: black;
             font-size: $font-sizePrimary;
@@ -83,7 +83,7 @@ body {
             padding-top: 5px;
             padding-right: 10px;
           }
-          .HireMeA {
+          .hireMeLink {
             text-decoration: none;
             display: inline-block;
             color: black;
@@ -103,9 +103,9 @@ body {
     }
 
     ////////////////// Slika i text pored ////////////////////////////
-    .Content1 {
+    .content1 {
 
-      .ImMilan {
+      .fibonacciText {
 
         //border:1px solid red;
 
@@ -113,7 +113,7 @@ body {
         height: 500px;
         // border:1px solid red;
 
-        .Fibonacci {
+        .fibonacci {
           display: inline-block;
           width: 49%;
           height: 100%;
@@ -127,7 +127,7 @@ body {
 
         }
 
-        .TextRightFib {
+        .textRightFib {
           float: right;
           width: 50%;
           height: auto;
@@ -150,7 +150,7 @@ body {
             }
 
             p {
-              @extend .TextIntroducion;
+              @extend .textIntroducion;
 
               a {
                 color: $font-colorPrimary;
@@ -168,7 +168,7 @@ body {
 
     ////////////////// Ostatak stranice ////////////////////////////
 
-    .Content2 {
+    .content2 {
 
       background-color: $content2color;
       //  height: 1000px;
@@ -182,7 +182,7 @@ body {
         background: $font-colorSecundary;
       }
 
-      .ProjectH3 {
+      .projectH3 {
         //  padding-left:50px;
         // margin-right:40px;
         //  margin-top:40px;
@@ -198,21 +198,21 @@ body {
         }
       }
 
-      .TextIntroducion p {
-        @extend .TextIntroducion;
+      .textIntroducion p {
+        @extend .textIntroducion;
 
       }
 
       //////// Featured projects ///////////
 
-      .FeaturedProjects {
+      .featuredProjects {
 
         display: block;
         padding-left: 100px;
         padding-bottom: 50px;
 
         p {
-          @extend .TextIntroducion;
+          @extend .textIntroducion;
           display: block;
           padding-left: 20px;
           padding-bottom: 20px;
@@ -244,7 +244,7 @@ body {
         padding-bottom: 50px;
 
         p {
-          @extend .TextIntroducion;
+          @extend .textIntroducion;
           display: block;
           padding-left: 20px;
           padding-bottom: 20px;
@@ -276,7 +276,7 @@ body {
         padding-bottom: 50px;
 
         p {
-          @extend .TextIntroducion;
+          @extend .textIntroducion;
           display: block;
           padding-left: 20px;
           padding-bottom: 20px;
@@ -308,7 +308,7 @@ body {
         padding-bottom: 50px;
 
         p {
-          @extend .TextIntroducion;
+          @extend .textIntroducion;
           display: block;
           padding-left: 20px;
           padding-bottom: 20px;
@@ -340,7 +340,7 @@ body {
         padding-bottom: 50px;
 
         p {
-          @extend .TextIntroducion;
+          @extend .textIntroducion;
           display: block;
           padding-left: 20px;
           padding-bottom: 20px;
@@ -454,12 +454,12 @@ body {
     }
 
     footer {
-
+      border:1px solid white;
       .footerGodina {
         float: left;
         width: 49%;
         p {
-          @extend .TextIntroducion;
+          @extend .textIntroducion;
           position: relative;
           left: 50%;
           top: 15px;
