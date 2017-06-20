@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2fc4cb2-ba5c-4a79-bfa4-4d853b7b4957" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Stuff.scss" afterPath="$PROJECT_DIR$/Stuff.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Style.css" afterPath="$PROJECT_DIR$/Style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Style.css.map" afterPath="$PROJECT_DIR$/Style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Style.scss" afterPath="$PROJECT_DIR$/Style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StyleRespIPad.scss" afterPath="$PROJECT_DIR$/StyleRespIPad.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StyleRespPhone.scss" afterPath="$PROJECT_DIR$/StyleRespPhone.scss" />
-    </list>
+    <list default="true" id="b2fc4cb2-ba5c-4a79-bfa4-4d853b7b4957" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -273,12 +265,12 @@
       <workItem from="1497596118986" duration="26731000" />
       <workItem from="1497624169068" duration="411000" />
       <workItem from="1497856065766" duration="18549000" />
-      <workItem from="1497941742987" duration="21969000" />
+      <workItem from="1497941742987" duration="22121000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67660000" />
+    <option name="totallyTimeSpent" value="67812000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
