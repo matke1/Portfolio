@@ -1,0 +1,38 @@
+$font-sizePrimary: 15px;
+$font-colorPrimary: gray;
+$font-colorSecundary: black;
+$content2color: #ECF2F2;
+$fibosmallcolor: lightgray;
+
+
+.textIntroducion {
+  font-size: $font-sizePrimary;
+  color: $font-colorPrimary;
+  font-family: Verdana,sans-serif;}
+
+
+.fibonacciSmall{
+  display: inline-block;
+  width:180px;
+  height:220px;
+  padding:10px;
+  background-color: $fibosmallcolor;}
+
+
+.fibonacciDivs {
+  padding-right:40px;
+  display: inline-block;}
+
+
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+
+body {
+  margin: 0;
+}

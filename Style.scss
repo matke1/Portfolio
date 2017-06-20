@@ -1,34 +1,4 @@
-@import "./StyleRespIPad";
-@import "./StyleRespPhone";
-
-@import url("./StyleRespIPad.css");
-@import url("./StyleRespPhone.css");
-
-
-$font-sizePrimary: 15px;
-$font-colorPrimary: gray;
-$font-colorSecundary: black;
-$content2color: #ECF2F2;
-$fibosmallcolor: lightgray;
-
-
-.textIntroducion {
-  font-size: $font-sizePrimary;
-  color: $font-colorPrimary;
-  font-family: Verdana,sans-serif;}
-
-
-.fibonacciSmall{
-  display: inline-block;
-  width:180px;
-  height:220px;
-  padding:10px;
-  background-color: $fibosmallcolor;}
-
-
-.fibonacciDivs {
-  padding-right:40px;
-  display: inline-block;}
+@import "./Stuff";
 
 
 
@@ -523,3 +493,6 @@ body {
   }
 }
 
+@import "./StyleRespIPad";
+
+@import "./StyleRespPhone";

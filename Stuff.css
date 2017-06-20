@@ -1,0 +1,17 @@
+.textIntroducion {
+  font-size: 15px;
+  color: gray;
+  font-family: Verdana,sans-serif; }
+
+.fibonacciSmall {
+  display: inline-block;
+  width: 180px;
+  height: 220px;
+  padding: 10px;
+  background-color: lightgray; }
+
+.fibonacciDivs {
+  padding-right: 40px;
+  display: inline-block; }
+
+/*# sourceMappingURL=Stuff.css.map */
