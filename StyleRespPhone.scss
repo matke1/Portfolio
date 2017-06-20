@@ -1,0 +1,464 @@
+@media only screen and (max-width: 765px) {
+
+  $font-sizePrimary: 14px;
+  $font-colorPrimary: gray;
+  $font-colorSecundary: black;
+  $content2color: #ECF2F2;
+  $fibosmallcolor: lightgray;
+
+  .textIntroducionPhone {
+    font-size: $font-sizePrimary;
+    color: $font-colorPrimary;
+  }
+
+  .fibonacciSmallPhone {
+    display: inline-block;
+    width: 180px;
+    height: 220px;
+    padding: 10px;
+    background-color: $fibosmallcolor;
+  }
+
+  .fibonacciDivsPhone {
+    padding-right: 40px;
+    display: inline-block;
+  }
+
+
+  body {
+
+    .wrapper {
+      background-color: white;
+      width: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      margin: 0 auto;
+
+      header {
+        border-bottom: 1px solid lightgray;
+        padding: 15px;
+
+
+        .logo {
+
+          display: inline-block;
+          position: absolute;
+          left:0;
+          margin: 0 auto;
+          background-size: cover;
+
+          .left-side {
+            float: left;
+            border-right: 1px solid lightgray;
+
+            a {
+              text-decoration: none;
+              color: black;
+              font-size: 20px;
+            }
+
+          }
+
+        }
+
+        .hireMe {
+          display: inline;
+          list-style: none;
+          position: relative;
+          left: 75%;
+          margin: 0 auto;
+
+          .right-side {
+            //float: right;
+
+            .projects {
+              text-decoration: none;
+              color: black;
+              font-size: $font-sizePrimary;
+              display: inline-block;
+              padding-top: 5px;
+              padding-right: 10px;
+            }
+            .hireMeLink {
+              text-decoration: none;
+              display: inline-block;
+              color: black;
+              font-size: $font-sizePrimary;
+              font-weight: bold;
+              padding-left: 13px;
+              padding-right: 13px;
+              padding-top: 3px;
+              padding-bottom: 3px;
+              border: 2px solid black;
+            }
+
+          }
+
+        }
+
+      }
+
+      .content1 {
+
+        .fibonacciText {
+
+          position: relative;
+          width: 100%;
+          height: 740px;
+
+          .fibonacci {
+            padding:0;
+            display: inline-block;
+            width: 100%;
+            height: auto;
+            position: absolute;
+            top:500px;
+
+            img {
+              width: 100%;
+              height: 300px;
+              object-fit: cover;
+            }
+
+          }
+
+          .textRightFib {
+            position: absolute;
+            top:9px;
+            width: 100%;
+            height: auto;
+            margin:0 auto;
+
+
+            .textIntroducionWrapper {
+              width: 290px;
+              text-align: left;
+              position: relative;
+              margin: 0 auto;
+
+
+              h2 {
+                font-size: 15px;
+              }
+
+              p {
+                @extend .textIntroducionPhone;
+                font-size: 11px;
+
+                a {
+                  color: $font-colorPrimary;
+                  border-bottom: 1px solid $font-colorPrimary;
+                  padding-bottom: 3px;
+                  text-decoration: none;
+                }
+              }
+            }
+
+          }
+
+        }
+      }
+
+
+      .content2 {
+
+        background-color: $content2color;
+
+
+        //////// LINIJA CRNA MALA ///////////
+
+        .line {
+          margin-left: 0;
+          width: 100px;
+          height: 1px;
+          background: $font-colorSecundary;
+        }
+
+        .projectH3 {
+          //  padding-left:50px;
+          // margin-right:40px;
+          //  margin-top:40px;
+          width: 100%;
+
+          h3 {
+            float: right;
+            margin-right:50px;
+            padding-bottom: 10px;
+            //border-bottom:1px solid black;
+          }
+        }
+
+        .textIntroducion p {
+          @extend .textIntroducionPhone;
+        }
+
+        //////// Featured projects ///////////
+
+        .featuredProjects {
+
+          display: block;
+          padding-left: 50px;
+          padding-right: 50px;
+          padding-bottom: 50px;
+
+          p {
+            @extend .textIntroducionPhone;
+            display: block;
+            padding-left: 20px;
+            padding-bottom: 20px;
+          }
+
+          .fibonacciDivs {
+            @extend .fibonacciDivsPhone;
+            padding-bottom: 20px;
+
+            .fibonacciSmall {
+              @extend .fibonacciSmallPhone;
+
+              img {
+                width: 100%;
+                height: 100%;
+              }
+            }
+
+          }
+        }
+
+        //////// Commercial projects ///////////
+
+        .commercialProjects {
+
+          display: block;
+          padding-left: 50px;
+          padding-right: 50px;
+          padding-top: 40px;
+          padding-bottom: 50px;
+
+          p {
+            @extend .textIntroducionPhone;
+            display: block;
+            padding-left: 20px;
+            padding-bottom: 20px;
+          }
+
+          .fibonacciDivs {
+            @extend .fibonacciDivsPhone;
+            padding-bottom: 20px;
+
+            .fibonacciSmall {
+              @extend .fibonacciSmallPhone;
+
+              img {
+                width: 100%;
+                height: 100%;
+              }
+            }
+
+          }
+        }
+
+        //////////// Concept projects ///////////////////
+
+        .conceptProjects {
+
+          display: block;
+          padding-left: 50px;
+          padding-right: 50px;
+          padding-top: 40px;
+          padding-bottom: 50px;
+
+          p {
+            @extend .textIntroducionPhone;
+            display: block;
+            padding-left: 20px;
+            padding-bottom: 20px;
+          }
+
+          .fibonacciDivs {
+            @extend .fibonacciDivsPhone;
+            padding-bottom: 20px;
+
+            .fibonacciSmall {
+              @extend .fibonacciSmallPhone;
+
+              img {
+                width: 100%;
+                height: 100%;
+              }
+            }
+
+          }
+        }
+
+        //////////// gift/charity projects ///////////////////
+
+        .giftCharity {
+
+          display: block;
+          padding-left: 50px;
+          padding-right: 50px;
+          padding-top: 40px;
+          padding-bottom: 50px;
+
+          p {
+            @extend .textIntroducionPhone;
+            display: block;
+            padding-left: 20px;
+            padding-bottom: 20px;
+          }
+
+          .fibonacciDivs {
+            @extend .fibonacciDivsPhone;
+            padding-bottom: 20px;
+
+            .fibonacciSmall {
+              @extend .fibonacciSmallPhone;
+
+              img {
+                width: 100%;
+                height: 100%;
+              }
+            }
+
+          }
+        }
+
+        //////////// first projects #throwback ///////////////////
+
+        .firstProjects {
+
+          display: block;
+          padding-left: 50px;
+          padding-right: 50px;
+          padding-top: 40px;
+          padding-bottom: 50px;
+
+          p {
+            @extend .textIntroducionPhone;
+            display: block;
+            padding-left: 20px;
+            padding-bottom: 20px;
+          }
+
+          .fibonacciDivs {
+            @extend .fibonacciDivsPhone;
+            padding-bottom: 20px;
+
+            .fibonacciSmall {
+              @extend .fibonacciSmallPhone;
+
+              img {
+                width: 100%;
+                height: 100%;
+              }
+            }
+
+          }
+        }
+
+        ////////////// PAPIRUS POZADINA I FOOTER/////////////////
+
+        .papirusFooter {
+          background-image: url("Images/books.jpg");
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
+          background-position: center center;
+
+          .naslovFooter {
+            margin: 0;
+
+            h3 {
+              display: inline-block;
+              margin-left: 35%;
+              margin-top: 150px;
+              color: white;
+            }
+          }
+
+          .leftContent {
+
+
+            float: left;
+            width: 30%;
+            height:200px;
+            padding-left: 100px;
+            padding-top: 80px;
+
+            color: white;
+            margin: 0 auto;
+
+            .lineWhite {
+
+              // position: relative;
+              //margin-left: 100px;
+              width: 100px;
+              height: 2px;
+              background: white;
+            }
+
+            p {
+              text-align: left;
+              a {
+                border-bottom: 1px solid white;
+                padding: 5px;
+                text-decoration: none;
+                color: white;
+                font-weight: bold;
+              }
+
+            }
+          }
+
+          .rightContent {
+            float: right;
+
+            display: inline-block;
+            width: 30%;
+            height:200px;
+            padding-right: 100px;
+            padding-top: 80px;
+            color: white;
+            margin: 0 auto;
+
+            .lineWhite {
+
+              margin-left: -100px;
+              width: 100px;
+              height: 2px;
+              background: white;
+            }
+
+            h3 {
+              text-align: right;
+            }
+
+            p {
+              text-align: right;
+              a {
+                border-bottom: 1px solid white;
+                padding: 5px;
+                text-decoration: none;
+                color: white;
+                font-weight: bold;
+              }
+            }
+
+          }
+
+        }
+
+      }
+
+
+
+
+    }
+
+
+  }
+}
+
+.clearfix{
+  clear:both;
+}

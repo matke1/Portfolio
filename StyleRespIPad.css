@@ -1,0 +1,108 @@
+@media only screen and (max-width: 1040px) {
+  .textIntroducionMedia, body .wrapper .content1 .fibonacciText .textRightFib .textIntroducionWrapper p {
+    font-size: 14px;
+    color: gray; }
+
+  .fibonacciSmall {
+    display: inline-block;
+    width: 180px;
+    height: 220px;
+    padding: 10px;
+    background-color: lightgray; }
+
+  .fibonacciDivs {
+    padding-right: 40px;
+    display: inline-block; }
+
+  .Proba {
+    background-color: #FFD3B0;
+    width: 100%; }
+
+  body .wrapper {
+    background-color: white;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0 auto; }
+    body .wrapper header {
+      border-bottom: 1px solid lightgray;
+      padding: 5px; }
+      body .wrapper header .logo {
+        display: inline-block;
+        position: absolute;
+        padding: 5px;
+        margin: 0 auto;
+        background-size: cover; }
+        body .wrapper header .logo .left-side {
+          float: left;
+          border-right: 1px solid lightgray;
+          padding-right: 20px;
+          padding-left: 20px; }
+          body .wrapper header .logo .left-side a {
+            text-decoration: none;
+            color: black;
+            font-size: 25px; }
+      body .wrapper header .hireMe {
+        display: inline-block;
+        list-style: none;
+        position: relative;
+        left: 75%;
+        margin: 0 auto; }
+        body .wrapper header .hireMe .right-side {
+          float: right; }
+          body .wrapper header .hireMe .right-side .projects {
+            text-decoration: none;
+            color: black;
+            font-size: 14px;
+            display: inline-block;
+            padding-top: 5px;
+            padding-right: 10px; }
+          body .wrapper header .hireMe .right-side .hireMeLink {
+            text-decoration: none;
+            display: inline-block;
+            color: black;
+            font-size: 14px;
+            font-weight: bold;
+            padding-left: 13px;
+            padding-right: 13px;
+            padding-top: 3px;
+            padding-bottom: 3px;
+            border: 2px solid black; }
+    body .wrapper .content1 .fibonacciText {
+      width: 100%;
+      height: 500px; }
+      body .wrapper .content1 .fibonacciText .fibonacci {
+        display: inline-block;
+        width: 49%;
+        height: 100%; }
+        body .wrapper .content1 .fibonacciText .fibonacci img {
+          width: 100%;
+          height: 100%; }
+      body .wrapper .content1 .fibonacciText .textRightFib {
+        float: right;
+        width: 50%;
+        height: auto;
+        text-align: left;
+        padding-top: 5px; }
+        body .wrapper .content1 .fibonacciText .textRightFib .textIntroducionWrapper {
+          width: 350px;
+          text-align: left;
+          position: relative;
+          margin: 0 auto;
+          padding-top: 10px; }
+          body .wrapper .content1 .fibonacciText .textRightFib .textIntroducionWrapper h2 {
+            padding-right: 100px;
+            font-size: 18px; }
+          body .wrapper .content1 .fibonacciText .textRightFib .textIntroducionWrapper p a {
+            color: gray;
+            border-bottom: 1px solid gray;
+            padding-bottom: 3px;
+            text-decoration: none; }
+    body .wrapper .content2 .line {
+      margin-left: 0;
+      width: 100px;
+      height: 1px;
+      background: black; } }
+
+/*# sourceMappingURL=StyleRespIPad.css.map */
