@@ -27,6 +27,7 @@
 
   body {
     background-color: white;
+
     .wrapper {
       background-color: white;
       width: 100%;
@@ -130,11 +131,10 @@
             float: right;
             width: 50%;
             height: auto;
-            text-align: left;
             padding-top: 5px;
 
             .textIntroducionWrapper {
-              width: 340px;
+              width: 85%;
               text-align: left;
               position: relative;
               margin: 0 auto;
@@ -144,10 +144,12 @@
               h2 {
                 padding-right: 100px;
                 font-size: 18px;
+                margin:10px auto;
               }
 
               p {
                 @extend .textIntroducionMedia;
+                margin:10px auto;
 
                 a {
                   color: $font-colorPrimary;
