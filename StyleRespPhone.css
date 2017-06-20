@@ -1,245 +1,86 @@
-@media only screen and (max-width: 765px) {
-  .textIntroducionPhone, body .wrapper .content1 .fibonacciText .textRightFib .textIntroducionWrapper p, body .wrapper .content2 .textIntroducion p, body .wrapper .content2 .featuredProjects p, body .wrapper .content2 .commercialProjects p, body .wrapper .content2 .conceptProjects p, body .wrapper .content2 .giftCharity p, body .wrapper .content2 .firstProjects p {
-    font-size: 14px;
-    color: gray; }
+/*
+Error: An @import loop has been found:
+           StyleRespPhone.scss imports Style.scss
+           Style.scss imports StyleRespIPad.scss
+           StyleRespIPad.scss imports Style.scss
+        on line 1 of StyleRespIPad.scss
+        from line 1 of Style.scss
+        from line 1 of StyleRespPhone.scss
 
-  .fibonacciSmallPhone, body .wrapper .content2 .featuredProjects .fibonacciDivs .fibonacciSmall, body .wrapper .content2 .commercialProjects .fibonacciDivs .fibonacciSmall, body .wrapper .content2 .conceptProjects .fibonacciDivs .fibonacciSmall, body .wrapper .content2 .giftCharity .fibonacciDivs .fibonacciSmall, body .wrapper .content2 .firstProjects .fibonacciDivs .fibonacciSmall {
-    display: inline-block;
-    width: 180px;
-    height: 220px;
-    padding: 10px;
-    background-color: lightgray; }
+1: @import "./Style";
+2: @import "./StyleRespIPad";
+3: 
+4: 
+5: @media only screen and (max-width: 765px) {
+6: 
 
-  .fibonacciDivsPhone, body .wrapper .content2 .featuredProjects .fibonacciDivs, body .wrapper .content2 .commercialProjects .fibonacciDivs, body .wrapper .content2 .conceptProjects .fibonacciDivs, body .wrapper .content2 .giftCharity .fibonacciDivs, body .wrapper .content2 .firstProjects .fibonacciDivs {
-    padding-right: 40px;
-    display: inline-block; }
-
-  body .wrapper {
-    background-color: white;
-    width: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    margin: 0 auto; }
-    body .wrapper header {
-      border-bottom: 1px solid lightgray;
-      padding: 15px; }
-      body .wrapper header .logo {
-        display: inline-block;
-        position: absolute;
-        left: 0;
-        margin: 0 auto;
-        background-size: cover; }
-        body .wrapper header .logo .left-side {
-          float: left;
-          border-right: 1px solid lightgray; }
-          body .wrapper header .logo .left-side a {
-            text-decoration: none;
-            color: black;
-            font-size: 20px; }
-      body .wrapper header .hireMe {
-        display: inline;
-        list-style: none;
-        position: relative;
-        left: 75%;
-        margin: 0 auto; }
-        body .wrapper header .hireMe .right-side .projects {
-          text-decoration: none;
-          color: black;
-          font-size: 14px;
-          display: inline-block;
-          padding-top: 5px;
-          padding-right: 10px; }
-        body .wrapper header .hireMe .right-side .hireMeLink {
-          text-decoration: none;
-          display: inline-block;
-          color: black;
-          font-size: 14px;
-          font-weight: bold;
-          padding-left: 13px;
-          padding-right: 13px;
-          padding-top: 3px;
-          padding-bottom: 3px;
-          border: 2px solid black; }
-    body .wrapper .content1 .fibonacciText {
-      position: relative;
-      width: 100%;
-      height: 740px; }
-      body .wrapper .content1 .fibonacciText .fibonacci {
-        padding: 0;
-        display: inline-block;
-        width: 100%;
-        height: auto;
-        position: absolute;
-        top: 500px; }
-        body .wrapper .content1 .fibonacciText .fibonacci img {
-          width: 100%;
-          height: 300px;
-          object-fit: cover; }
-      body .wrapper .content1 .fibonacciText .textRightFib {
-        position: absolute;
-        top: 9px;
-        width: 100%;
-        height: auto;
-        margin: 0 auto; }
-        body .wrapper .content1 .fibonacciText .textRightFib .textIntroducionWrapper {
-          width: 290px;
-          text-align: left;
-          position: relative;
-          margin: 0 auto; }
-          body .wrapper .content1 .fibonacciText .textRightFib .textIntroducionWrapper h2 {
-            font-size: 15px; }
-          body .wrapper .content1 .fibonacciText .textRightFib .textIntroducionWrapper p {
-            font-size: 11px; }
-            body .wrapper .content1 .fibonacciText .textRightFib .textIntroducionWrapper p a {
-              color: gray;
-              border-bottom: 1px solid gray;
-              padding-bottom: 3px;
-              text-decoration: none; }
-    body .wrapper .content2 {
-      background-color: #ECF2F2; }
-      body .wrapper .content2 .line {
-        margin-left: 0;
-        width: 100px;
-        height: 1px;
-        background: black; }
-      body .wrapper .content2 .projectH3 {
-        width: 100%; }
-        body .wrapper .content2 .projectH3 h3 {
-          float: right;
-          margin-right: 50px;
-          padding-bottom: 10px; }
-      body .wrapper .content2 .featuredProjects {
-        display: block;
-        padding-left: 50px;
-        padding-right: 50px;
-        padding-bottom: 50px; }
-        body .wrapper .content2 .featuredProjects p {
-          display: block;
-          padding-left: 20px;
-          padding-bottom: 20px; }
-        body .wrapper .content2 .featuredProjects .fibonacciDivs {
-          padding-bottom: 20px; }
-          body .wrapper .content2 .featuredProjects .fibonacciDivs .fibonacciSmall img {
-            width: 100%;
-            height: 100%; }
-      body .wrapper .content2 .commercialProjects {
-        display: block;
-        padding-left: 50px;
-        padding-right: 50px;
-        padding-top: 40px;
-        padding-bottom: 50px; }
-        body .wrapper .content2 .commercialProjects p {
-          display: block;
-          padding-left: 20px;
-          padding-bottom: 20px; }
-        body .wrapper .content2 .commercialProjects .fibonacciDivs {
-          padding-bottom: 20px; }
-          body .wrapper .content2 .commercialProjects .fibonacciDivs .fibonacciSmall img {
-            width: 100%;
-            height: 100%; }
-      body .wrapper .content2 .conceptProjects {
-        display: block;
-        padding-left: 50px;
-        padding-right: 50px;
-        padding-top: 40px;
-        padding-bottom: 50px; }
-        body .wrapper .content2 .conceptProjects p {
-          display: block;
-          padding-left: 20px;
-          padding-bottom: 20px; }
-        body .wrapper .content2 .conceptProjects .fibonacciDivs {
-          padding-bottom: 20px; }
-          body .wrapper .content2 .conceptProjects .fibonacciDivs .fibonacciSmall img {
-            width: 100%;
-            height: 100%; }
-      body .wrapper .content2 .giftCharity {
-        display: block;
-        padding-left: 50px;
-        padding-right: 50px;
-        padding-top: 40px;
-        padding-bottom: 50px; }
-        body .wrapper .content2 .giftCharity p {
-          display: block;
-          padding-left: 20px;
-          padding-bottom: 20px; }
-        body .wrapper .content2 .giftCharity .fibonacciDivs {
-          padding-bottom: 20px; }
-          body .wrapper .content2 .giftCharity .fibonacciDivs .fibonacciSmall img {
-            width: 100%;
-            height: 100%; }
-      body .wrapper .content2 .firstProjects {
-        display: block;
-        padding-left: 50px;
-        padding-right: 50px;
-        padding-top: 40px;
-        padding-bottom: 50px; }
-        body .wrapper .content2 .firstProjects p {
-          display: block;
-          padding-left: 20px;
-          padding-bottom: 20px; }
-        body .wrapper .content2 .firstProjects .fibonacciDivs {
-          padding-bottom: 20px; }
-          body .wrapper .content2 .firstProjects .fibonacciDivs .fibonacciSmall img {
-            width: 100%;
-            height: 100%; }
-      body .wrapper .content2 .papirusFooter {
-        background-image: url("Images/books.jpg");
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        background-position: center center; }
-        body .wrapper .content2 .papirusFooter .naslovFooter {
-          margin: 0; }
-          body .wrapper .content2 .papirusFooter .naslovFooter h3 {
-            display: inline-block;
-            margin-left: 35%;
-            margin-top: 150px;
-            color: white; }
-        body .wrapper .content2 .papirusFooter .leftContent {
-          float: left;
-          width: 30%;
-          height: 200px;
-          padding-left: 100px;
-          padding-top: 80px;
-          color: white;
-          margin: 0 auto; }
-          body .wrapper .content2 .papirusFooter .leftContent .lineWhite {
-            width: 100px;
-            height: 2px;
-            background: white; }
-          body .wrapper .content2 .papirusFooter .leftContent p {
-            text-align: left; }
-            body .wrapper .content2 .papirusFooter .leftContent p a {
-              border-bottom: 1px solid white;
-              padding: 5px;
-              text-decoration: none;
-              color: white;
-              font-weight: bold; }
-        body .wrapper .content2 .papirusFooter .rightContent {
-          float: right;
-          display: inline-block;
-          width: 30%;
-          height: 200px;
-          padding-right: 100px;
-          padding-top: 80px;
-          color: white;
-          margin: 0 auto; }
-          body .wrapper .content2 .papirusFooter .rightContent .lineWhite {
-            margin-left: -100px;
-            width: 100px;
-            height: 2px;
-            background: white; }
-          body .wrapper .content2 .papirusFooter .rightContent h3 {
-            text-align: right; }
-          body .wrapper .content2 .papirusFooter .rightContent p {
-            text-align: right; }
-            body .wrapper .content2 .papirusFooter .rightContent p a {
-              border-bottom: 1px solid white;
-              padding: 5px;
-              text-decoration: none;
-              color: white;
-              font-weight: bold; } }
-.clearfix {
-  clear: both; }
-
-/*# sourceMappingURL=StyleRespPhone.css.map */
+Backtrace:
+StyleRespIPad.scss:1
+Style.scss:1
+StyleRespPhone.scss:1
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:561:in `handle_import_loop!'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:321:in `visit_import'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:36:in `visit'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/stack.rb:79:in `block in with_base'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/stack.rb:115:in `with_frame'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/stack.rb:79:in `with_base'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:328:in `block (2 levels) in visit_import'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:328:in `map'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:328:in `block in visit_import'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/stack.rb:88:in `block in with_import'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/stack.rb:115:in `with_frame'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/stack.rb:88:in `with_import'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:325:in `visit_import'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:36:in `visit'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/stack.rb:79:in `block in with_base'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/stack.rb:115:in `with_frame'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/stack.rb:79:in `with_base'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:328:in `block (2 levels) in visit_import'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:328:in `map'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:328:in `block in visit_import'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/stack.rb:88:in `block in with_import'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/stack.rb:115:in `with_frame'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/stack.rb:88:in `with_import'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:325:in `visit_import'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:36:in `visit'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/stack.rb:79:in `block in with_base'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/stack.rb:115:in `with_frame'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/stack.rb:79:in `with_base'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:52:in `map'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:36:in `visit'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:159:in `visit'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/root_node.rb:36:in `css_tree'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:209:in `each'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/plugin.rb:82:in `update_stylesheets'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/exec/sass_scss.rb:340:in `watch_or_update'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/exec/base.rb:52:in `parse'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/exec/base.rb:19:in `parse!'
+/var/lib/gems/2.3.0/gems/sass-3.4.24/bin/scss:13:in `<top (required)>'
+/usr/local/bin/scss:22:in `load'
+/usr/local/bin/scss:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: An @import loop has been found:\A            StyleRespPhone.scss imports Style.scss\A            Style.scss imports StyleRespIPad.scss\A            StyleRespIPad.scss imports Style.scss\A         on line 1 of StyleRespIPad.scss\A         from line 1 of Style.scss\A         from line 1 of StyleRespPhone.scss\A \A 1: @import \"./Style\";\A 2: @import \"./StyleRespIPad\";\A 3: \A 4: \A 5: @media only screen and (max-width: 765px) {\A 6: "; }
