@@ -1,38 +1,18 @@
 /*
 Error: An @import loop has been found:
            StyleRespPhone.scss imports Style.scss
-           Style.scss imports StyleRespIPad.scss
-           StyleRespIPad.scss imports Style.scss
-        on line 1 of StyleRespIPad.scss
-        from line 1 of Style.scss
-        from line 1 of StyleRespPhone.scss
+           Style.scss imports StyleRespPhone.scss
+        on line 542 of Style.scss
+        from line 538 of StyleRespPhone.scss
 
-1: @import "./Style";
-2: @import "./StyleRespIPad";
-3: 
-4: 
-5: @media only screen and (max-width: 765px) {
-6: 
+537: 
+538: @import "./Style";
 
 Backtrace:
-StyleRespIPad.scss:1
-Style.scss:1
-StyleRespPhone.scss:1
+Style.scss:542
+StyleRespPhone.scss:538
 /var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:561:in `handle_import_loop!'
 /var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:321:in `visit_import'
-/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:36:in `visit'
-/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/stack.rb:79:in `block in with_base'
-/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/stack.rb:115:in `with_frame'
-/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/stack.rb:79:in `with_base'
-/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `visit'
-/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:328:in `block (2 levels) in visit_import'
-/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:328:in `map'
-/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:328:in `block in visit_import'
-/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/stack.rb:88:in `block in with_import'
-/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/stack.rb:115:in `with_frame'
-/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/stack.rb:88:in `with_import'
-/var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:325:in `visit_import'
 /var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:36:in `visit'
 /var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
 /var/lib/gems/2.3.0/gems/sass-3.4.24/lib/sass/stack.rb:79:in `block in with_base'
@@ -83,4 +63,4 @@ StyleRespPhone.scss:1
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: An @import loop has been found:\A            StyleRespPhone.scss imports Style.scss\A            Style.scss imports StyleRespIPad.scss\A            StyleRespIPad.scss imports Style.scss\A         on line 1 of StyleRespIPad.scss\A         from line 1 of Style.scss\A         from line 1 of StyleRespPhone.scss\A \A 1: @import \"./Style\";\A 2: @import \"./StyleRespIPad\";\A 3: \A 4: \A 5: @media only screen and (max-width: 765px) {\A 6: "; }
+  content: "Error: An @import loop has been found:\A            StyleRespPhone.scss imports Style.scss\A            Style.scss imports StyleRespPhone.scss\A         on line 542 of Style.scss\A         from line 538 of StyleRespPhone.scss\A \A 537: \A 538: @import \"./Style\";"; }

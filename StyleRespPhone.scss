@@ -1,5 +1,22 @@
 @media only screen and (max-width: 765px) {
 
+
+  article,
+  aside,
+  footer,
+  header,
+  nav,
+  section {
+    display: block;
+  }
+
+  body {
+    margin: 0;
+  }
+
+
+
+
   $font-sizePrimary: 14px;
   $font-colorPrimary: gray;
   $font-colorSecundary: black;
@@ -20,7 +37,7 @@
   }
 
   .fibonacciDivsPhone {
-    padding-right: 30px;
+    padding-right:10px;
     display: inline-block;
   }
 
@@ -194,21 +211,32 @@
 
         .featuredProjects {
 
+          padding-top:50px;
           display: block;
-          padding-left: 50px;
-          padding-right: 50px;
-          padding-bottom: 50px;
+          margin:0;
+
+          h3{
+            padding-left: 40px;
+          }
 
           p {
             @extend .textIntroducionPhone;
             display: block;
-            padding-left: 20px;
+            width:60%;
+            padding-left: 50px;
             padding-bottom: 20px;
+
           }
 
+          .firstProjectsFiboDivs{
+            padding-bottom:50px;
+            padding-left: 40px;
+
+          }
           .fibonacciDivs {
             @extend .fibonacciDivsPhone;
-            padding-bottom: 20px;
+
+            padding-right:15px;
 
             .fibonacciSmall {
               @extend .fibonacciSmallPhone;
@@ -219,7 +247,6 @@
                 object-fit: contain;
               }
             }
-
           }
         }
 
@@ -227,25 +254,39 @@
 
         .commercialProjects {
 
+          padding-top:50px;
           display: block;
-          padding-left: 50px;
-          padding-right: 50px;
-          padding-top: 40px;
-          padding-bottom: 50px;
+
+
+          h3{
+
+            padding-left: 40px;
+
+
+          }
 
           p {
             @extend .textIntroducionPhone;
             display: block;
-            padding-left: 20px;
+            width:60%;
+            padding-left: 50px;
             padding-bottom: 20px;
+
           }
 
+          .firstProjectsFiboDivs{
+            padding-bottom:50px;
+            padding-left: 40px;
+
+          }
           .fibonacciDivs {
             @extend .fibonacciDivsPhone;
-            padding-bottom: 20px;
+
+            padding-right:15px;
 
             .fibonacciSmall {
               @extend .fibonacciSmallPhone;
+
 
               img {
                 width: 100%;
@@ -261,25 +302,38 @@
 
         .conceptProjects {
 
+          padding-top:50px;
           display: block;
-          padding-left: 50px;
-          padding-right: 50px;
-          padding-top: 40px;
-          padding-bottom: 50px;
+
+
+          h3{
+
+            padding-left: 40px;
+
+          }
 
           p {
             @extend .textIntroducionPhone;
             display: block;
-            padding-left: 20px;
+            width:60%;
+            padding-left: 50px;
             padding-bottom: 20px;
+          }
+
+          .firstProjectsFiboDivs{
+            padding-bottom:50px;
+            padding-left: 40px;
           }
 
           .fibonacciDivs {
             @extend .fibonacciDivsPhone;
-            padding-bottom: 20px;
+
+            padding-right:15px;
+            position: relative;
 
             .fibonacciSmall {
               @extend .fibonacciSmallPhone;
+
 
               img {
                 width: 100%;
@@ -295,25 +349,40 @@
 
         .giftCharity {
 
+          padding-top:50px;
           display: block;
-          padding-left: 50px;
-          padding-right: 50px;
-          padding-top: 40px;
-          padding-bottom: 50px;
+
+
+          h3{
+
+            padding-left: 40px;
+
+
+          }
 
           p {
             @extend .textIntroducionPhone;
             display: block;
-            padding-left: 20px;
+            width:60%;
+            padding-left: 50px;
             padding-bottom: 20px;
+
           }
 
+          .firstProjectsFiboDivs{
+            padding-bottom:50px;
+            padding-left: 40px;
+
+          }
           .fibonacciDivs {
             @extend .fibonacciDivsPhone;
-            padding-bottom: 20px;
+
+            padding-right:15px;
+            position: relative;
 
             .fibonacciSmall {
               @extend .fibonacciSmallPhone;
+
 
               img {
                 width: 100%;
@@ -329,25 +398,45 @@
 
         .firstProjects {
 
-          display: block;
-          padding-left: 50px;
-          padding-right: 50px;
-          padding-top: 40px;
-          padding-bottom: 50px;
+          padding-top:50px;
+          width:100%;
+
+
+          h3{
+
+            padding-left: 40px;
+
+
+          }
 
           p {
             @extend .textIntroducionPhone;
-            display: block;
-            padding-left: 20px;
+            display: inline-block;
+            width:70%;
+            padding-left: 50px;
             padding-bottom: 20px;
+
+
           }
 
+          .firstProjectsFiboDivs{
+            position: relative;
+
+          }
+          .firstProjectsFiboDivs{
+            padding-bottom:50px;
+            padding-left: 40px;
+
+          }
           .fibonacciDivs {
             @extend .fibonacciDivsPhone;
-            padding-bottom: 20px;
+
+            padding-right:15px;
+            position: relative;
 
             .fibonacciSmall {
               @extend .fibonacciSmallPhone;
+
 
               img {
                 width: 100%;

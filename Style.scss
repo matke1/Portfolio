@@ -178,17 +178,26 @@ body {
       //////// Featured projects ///////////
 
       .featuredProjects {
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-top:50px;
         display: block;
-        padding-bottom: 50px;
+
+        h3{
+          padding-left: 40px;
+        }
 
         p {
           @extend .textIntroducion;
           display: block;
-          padding-left: 20px;
+          width:300px;
+          padding-left: 50px;
           padding-bottom: 20px;
         }
+
+        .firstProjectsFiboDivs{
+          padding-left: 70px;
+          padding-bottom:50px;
+        }
+
 
         .fibonacciDivs {
           @extend .fibonacciDivs;
@@ -211,17 +220,25 @@ body {
 
       .commercialProjects {
 
+        padding-top:50px;
         display: block;
-        padding-left: 50px;
-        padding-right: 50px;
-        padding-top: 40px;
-        padding-bottom: 50px;
+
+        h3{
+          padding-left: 40px;
+        }
 
         p {
           @extend .textIntroducion;
           display: block;
-          padding-left: 20px;
+          width:300px;
+          padding-left: 50px;
           padding-bottom: 20px;
+        }
+
+        .firstProjectsFiboDivs{
+          padding-left: 70px;
+          padding-bottom:50px;
+
         }
 
         .fibonacciDivs {
@@ -245,17 +262,24 @@ body {
 
       .conceptProjects {
 
+        padding-top:50px;
         display: block;
-        padding-left: 50px;
-        padding-right: 50px;
-        padding-top: 40px;
-        padding-bottom: 50px;
+
+        h3{
+          padding-left: 40px;
+        }
 
         p {
           @extend .textIntroducion;
           display: block;
-          padding-left: 20px;
+          width:300px;
+          padding-left: 50px;
           padding-bottom: 20px;
+        }
+
+        .firstProjectsFiboDivs{
+          padding-left: 70px;
+          padding-bottom:50px;
         }
 
         .fibonacciDivs {
@@ -280,16 +304,23 @@ body {
       .giftCharity {
 
         display: block;
-        padding-left: 50px;
-        padding-right: 50px;
-        padding-top: 40px;
-        padding-bottom: 50px;
+        padding-top:50px;
+
+        h3{
+          padding-left: 40px;
+        }
 
         p {
           @extend .textIntroducion;
           display: block;
-          padding-left: 20px;
+          width:300px;
+          padding-left: 50px;
           padding-bottom: 20px;
+        }
+
+        .firstProjectsFiboDivs{
+          padding-left: 70px;
+          padding-bottom:50px;
         }
 
         .fibonacciDivs {
@@ -313,17 +344,27 @@ body {
 
       .firstProjects {
 
+        padding-top:50px;
         display: block;
-        padding-left: 50px;
-        padding-right: 50px;
-        padding-top: 40px;
-        padding-bottom: 50px;
+
+        h3{
+
+          padding-left: 40px;
+
+        }
 
         p {
           @extend .textIntroducion;
           display: block;
-          padding-left: 20px;
+          width:300px;
+          padding-left: 50px;
           padding-bottom: 20px;
+        }
+
+        .firstProjectsFiboDivs{
+          padding-bottom:50px;
+          padding-left: 70px;
+
         }
 
         .fibonacciDivs {
@@ -495,6 +536,8 @@ body {
   }
 }
 
-@import "./StyleRespIPad";
 
+
+@import "./StyleRespIPad";
 @import "./StyleRespPhone";
+@import "./StyleRespSmallPhone";
