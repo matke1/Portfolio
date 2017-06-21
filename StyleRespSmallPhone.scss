@@ -9,10 +9,6 @@
     display: block;
   }
 
-  body {
-    margin: 0;
-  }
-
   $font-sizePrimary: 14px;
   $font-colorPrimary: gray;
   $font-colorSecundary: black;
@@ -25,7 +21,7 @@
   }
 
   .fibonacciSmallPhoneResp {
-    display: inline-block;
+    display: block;
     width: 180px;
     height: 220px;
     padding: 10px;
@@ -37,10 +33,10 @@
   }
 
   body {
-
+    margin:0;
     .wrapper {
 
-      background: red;
+
       .content2 {
 
         background-color: $content2color;
@@ -73,8 +69,7 @@
 
           padding-top: 50px;
           display: block;
-          margin: 0;
-          border:1px solid black;
+          margin: 0 auto;
 
           h3 {
             padding-left: 40px;
@@ -90,18 +85,26 @@
           }
 
           .firstProjectsFiboDivs {
-            border:1px solid red;
-            padding-bottom: 50px;
+            padding: 0;
             position: relative;
-            width:90%;
+            width:200px;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            margin-left:auto;
+            margin-right:auto;
+            padding-bottom:50px;
+
 
           }
           .fibonacciDivs {
             @extend .fibonacciDivsPhoneSmall;
-
             position: relative;
-            left:20%;
-            border:1px solid blue;
+            width:200px;
+            display: inline-block;
+            margin-left:auto;
+            margin-right:auto;
+
 
             .fibonacciSmall {
               @extend .fibonacciSmallPhoneResp;
@@ -121,6 +124,7 @@
 
           padding-top: 50px;
           display: block;
+          margin: 0 auto;
 
           h3 {
 
@@ -138,14 +142,33 @@
           }
 
           .firstProjectsFiboDivs {
-            padding-bottom: 50px;
-            padding-left: 40px;
+            padding: 0;
+            position: relative;
+            width:200px;
+            margin:0;
+            outline:0;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            margin-left:auto;
+            margin-right:auto;
+            padding-bottom:50px;
+
 
           }
           .fibonacciDivs {
             @extend .fibonacciDivsPhoneSmall;
-
-            padding-right: 15px;
+            padding-right:10px;
+            position: relative;
+            width:200px;
+            display: inline-block;
+            margin:0;
+            outline:0;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            margin-left:auto;
+            margin-right:auto;
 
             .fibonacciSmall {
               @extend .fibonacciSmallPhoneResp;
@@ -166,7 +189,7 @@
 
           padding-top: 50px;
           display: block;
-
+          margin: 0 auto;
           h3 {
 
             padding-left: 40px;
@@ -182,15 +205,33 @@
           }
 
           .firstProjectsFiboDivs {
-            padding-bottom: 50px;
-            padding-left: 40px;
-          }
+            padding: 0;
+            position: relative;
+            width:200px;
+            margin:0;
+            outline:0;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            margin-left:auto;
+            margin-right:auto;
+            padding-bottom:50px;
 
+
+          }
           .fibonacciDivs {
             @extend .fibonacciDivsPhoneSmall;
-
-            padding-right: 15px;
+            padding-right:10px;
             position: relative;
+            width:200px;
+            display: inline-block;
+            margin:0;
+            outline:0;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            margin-left:auto;
+            margin-right:auto;
 
             .fibonacciSmall {
               @extend .fibonacciSmallPhoneResp;
@@ -211,6 +252,7 @@
 
           padding-top: 50px;
           display: block;
+          margin: 0 auto;
 
           h3 {
 
@@ -228,15 +270,34 @@
           }
 
           .firstProjectsFiboDivs {
-            padding-bottom: 50px;
-            padding-left: 40px;
+            padding: 0;
+            position: relative;
+            width:200px;
+            margin:0;
+            outline:0;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            margin-left:auto;
+            margin-right:auto;
+            padding-bottom:50px;
+
+
 
           }
           .fibonacciDivs {
             @extend .fibonacciDivsPhoneSmall;
-
-            padding-right: 15px;
+            padding-right:10px;
             position: relative;
+            width:200px;
+            display: inline-block;
+            margin:0;
+            outline:0;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            margin-left:auto;
+            margin-right:auto;
 
             .fibonacciSmall {
               @extend .fibonacciSmallPhoneResp;
@@ -256,7 +317,8 @@
         .firstProjects {
 
           padding-top: 50px;
-          width: 100%;
+          display: block;
+          margin: 0 auto;
 
           h3 {
 
@@ -277,16 +339,36 @@
             position: relative;
 
           }
+
           .firstProjectsFiboDivs {
-            padding-bottom: 50px;
-            padding-left: 40px;
+            padding: 0;
+            position: relative;
+            width:200px;
+            margin:0;
+            outline:0;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            margin-left:auto;
+            margin-right:auto;
+            padding-bottom:50px;
+
 
           }
           .fibonacciDivs {
             @extend .fibonacciDivsPhoneSmall;
-
-            padding-right: 15px;
+            padding-right:10px;
             position: relative;
+            width:200px;
+            display: inline-block;
+            margin:0;
+            outline:0;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            margin-left:auto;
+            margin-right:auto;
+
 
             .fibonacciSmall {
               @extend .fibonacciSmallPhoneResp;

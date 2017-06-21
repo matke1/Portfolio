@@ -719,15 +719,12 @@ body {
   section {
     display: block; }
 
-  body {
-    margin: 0; }
-
   .textIntroducionPhoneSmall, body .wrapper .content2 .textIntroducion p, body .wrapper .content2 .content1 .fibonacciText .textRightFib .textIntroducionWrapper p p, body .wrapper .content1 .fibonacciText .textRightFib .textIntroducionWrapper .content2 p p, body .wrapper .content2 footer .footerGodina p p, body .wrapper footer .footerGodina .content2 p p, body .wrapper .content2 .featuredProjects p, body .wrapper .content2 .commercialProjects p, body .wrapper .content2 .conceptProjects p, body .wrapper .content2 .giftCharity p, body .wrapper .content2 .firstProjects p {
     font-size: 14px;
     color: gray; }
 
   .fibonacciSmallPhoneResp, body .wrapper .content2 .featuredProjects .fibonacciDivs .fibonacciSmall, body .wrapper .content2 .commercialProjects .fibonacciDivs .fibonacciSmall, body .wrapper .content2 .conceptProjects .fibonacciDivs .fibonacciSmall, body .wrapper .content2 .giftCharity .fibonacciDivs .fibonacciSmall, body .wrapper .content2 .firstProjects .fibonacciDivs .fibonacciSmall {
-    display: inline-block;
+    display: block;
     width: 180px;
     height: 220px;
     padding: 10px;
@@ -736,8 +733,8 @@ body {
   .fibonacciDivsPhoneSmall, body .wrapper .content2 .featuredProjects .fibonacciDivs, body .wrapper .content2 .commercialProjects .fibonacciDivs, body .wrapper .content2 .conceptProjects .fibonacciDivs, body .wrapper .content2 .giftCharity .fibonacciDivs, body .wrapper .content2 .firstProjects .fibonacciDivs {
     display: inline-block; }
 
-  body .wrapper {
-    background: red; }
+  body {
+    margin: 0; }
     body .wrapper .content2 {
       background-color: #ECF2F2; }
       body .wrapper .content2 .line {
@@ -754,8 +751,7 @@ body {
       body .wrapper .content2 .featuredProjects {
         padding-top: 50px;
         display: block;
-        margin: 0;
-        border: 1px solid black; }
+        margin: 0 auto; }
         body .wrapper .content2 .featuredProjects h3 {
           padding-left: 40px; }
         body .wrapper .content2 .featuredProjects p {
@@ -764,21 +760,29 @@ body {
           padding-left: 50px;
           padding-bottom: 20px; }
         body .wrapper .content2 .featuredProjects .firstProjectsFiboDivs {
-          border: 1px solid red;
-          padding-bottom: 50px;
+          padding: 0;
           position: relative;
-          width: 90%; }
+          width: 200px;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          margin-left: auto;
+          margin-right: auto;
+          padding-bottom: 50px; }
         body .wrapper .content2 .featuredProjects .fibonacciDivs {
           position: relative;
-          left: 20%;
-          border: 1px solid blue; }
+          width: 200px;
+          display: inline-block;
+          margin-left: auto;
+          margin-right: auto; }
           body .wrapper .content2 .featuredProjects .fibonacciDivs .fibonacciSmall img {
             width: 100%;
             height: 100%;
             object-fit: contain; }
       body .wrapper .content2 .commercialProjects {
         padding-top: 50px;
-        display: block; }
+        display: block;
+        margin: 0 auto; }
         body .wrapper .content2 .commercialProjects h3 {
           padding-left: 40px; }
         body .wrapper .content2 .commercialProjects p {
@@ -787,17 +791,37 @@ body {
           padding-left: 50px;
           padding-bottom: 20px; }
         body .wrapper .content2 .commercialProjects .firstProjectsFiboDivs {
-          padding-bottom: 50px;
-          padding-left: 40px; }
+          padding: 0;
+          position: relative;
+          width: 200px;
+          margin: 0;
+          outline: 0;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          margin-left: auto;
+          margin-right: auto;
+          padding-bottom: 50px; }
         body .wrapper .content2 .commercialProjects .fibonacciDivs {
-          padding-right: 15px; }
+          padding-right: 10px;
+          position: relative;
+          width: 200px;
+          display: inline-block;
+          margin: 0;
+          outline: 0;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          margin-left: auto;
+          margin-right: auto; }
           body .wrapper .content2 .commercialProjects .fibonacciDivs .fibonacciSmall img {
             width: 100%;
             height: 100%;
             object-fit: contain; }
       body .wrapper .content2 .conceptProjects {
         padding-top: 50px;
-        display: block; }
+        display: block;
+        margin: 0 auto; }
         body .wrapper .content2 .conceptProjects h3 {
           padding-left: 40px; }
         body .wrapper .content2 .conceptProjects p {
@@ -806,18 +830,37 @@ body {
           padding-left: 50px;
           padding-bottom: 20px; }
         body .wrapper .content2 .conceptProjects .firstProjectsFiboDivs {
-          padding-bottom: 50px;
-          padding-left: 40px; }
+          padding: 0;
+          position: relative;
+          width: 200px;
+          margin: 0;
+          outline: 0;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          margin-left: auto;
+          margin-right: auto;
+          padding-bottom: 50px; }
         body .wrapper .content2 .conceptProjects .fibonacciDivs {
-          padding-right: 15px;
-          position: relative; }
+          padding-right: 10px;
+          position: relative;
+          width: 200px;
+          display: inline-block;
+          margin: 0;
+          outline: 0;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          margin-left: auto;
+          margin-right: auto; }
           body .wrapper .content2 .conceptProjects .fibonacciDivs .fibonacciSmall img {
             width: 100%;
             height: 100%;
             object-fit: contain; }
       body .wrapper .content2 .giftCharity {
         padding-top: 50px;
-        display: block; }
+        display: block;
+        margin: 0 auto; }
         body .wrapper .content2 .giftCharity h3 {
           padding-left: 40px; }
         body .wrapper .content2 .giftCharity p {
@@ -826,18 +869,37 @@ body {
           padding-left: 50px;
           padding-bottom: 20px; }
         body .wrapper .content2 .giftCharity .firstProjectsFiboDivs {
-          padding-bottom: 50px;
-          padding-left: 40px; }
+          padding: 0;
+          position: relative;
+          width: 200px;
+          margin: 0;
+          outline: 0;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          margin-left: auto;
+          margin-right: auto;
+          padding-bottom: 50px; }
         body .wrapper .content2 .giftCharity .fibonacciDivs {
-          padding-right: 15px;
-          position: relative; }
+          padding-right: 10px;
+          position: relative;
+          width: 200px;
+          display: inline-block;
+          margin: 0;
+          outline: 0;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          margin-left: auto;
+          margin-right: auto; }
           body .wrapper .content2 .giftCharity .fibonacciDivs .fibonacciSmall img {
             width: 100%;
             height: 100%;
             object-fit: contain; }
       body .wrapper .content2 .firstProjects {
         padding-top: 50px;
-        width: 100%; }
+        display: block;
+        margin: 0 auto; }
         body .wrapper .content2 .firstProjects h3 {
           padding-left: 40px; }
         body .wrapper .content2 .firstProjects p {
@@ -848,11 +910,29 @@ body {
         body .wrapper .content2 .firstProjects .firstProjectsFiboDivs {
           position: relative; }
         body .wrapper .content2 .firstProjects .firstProjectsFiboDivs {
-          padding-bottom: 50px;
-          padding-left: 40px; }
+          padding: 0;
+          position: relative;
+          width: 200px;
+          margin: 0;
+          outline: 0;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          margin-left: auto;
+          margin-right: auto;
+          padding-bottom: 50px; }
         body .wrapper .content2 .firstProjects .fibonacciDivs {
-          padding-right: 15px;
-          position: relative; }
+          padding-right: 10px;
+          position: relative;
+          width: 200px;
+          display: inline-block;
+          margin: 0;
+          outline: 0;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          margin-left: auto;
+          margin-right: auto; }
           body .wrapper .content2 .firstProjects .fibonacciDivs .fibonacciSmall img {
             width: 100%;
             height: 100%;
